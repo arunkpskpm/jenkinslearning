@@ -3,5 +3,4 @@ echo "This is from github.com"
 echo "This is the string passed  : $STRING"
 SUM=$(($FIRSTNUMBER + $SECONDNUMBER))
 echo "Sum of FISTNUMBER + SECONDNUMBER is : $SUM"
-echo "This was run automatically triggered by webhook"
-echo "Modified 2222222222222222222222"
+echo "This job was triggered by webhook"
